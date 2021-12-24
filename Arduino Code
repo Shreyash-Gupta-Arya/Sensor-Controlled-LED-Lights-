@@ -4,11 +4,11 @@
 #include<FastLED.h>
 
 #define num_led 547
-#define led_pin 2
-#define sensor_1 8
-#define sensor_2 12
-#define relay 7
-#define buzzer 4
+#define led_pin 2                                           // Connect led data pin to pin number 2 in arduino
+#define sensor_1 8                                          // Connect Sensor 1 data pin to pin number 8 in arduino
+#define sensor_2 12                                         // Connect Sensor 2 data pin to pin number 12 in arduino
+#define relay 7                                             // Connect Relay data pin to pin number 7 in arduino
+#define buzzer 4                                            // Connect Buzzer to pin number 4 in arduino
 
 uint8_t hue=0;
 
